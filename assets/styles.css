@@ -149,6 +149,12 @@ main{
     padding-bottom: 10px;
 }
 
+.news-heading:hover{
+    color: var(--softOrange);
+    transition: 1s;
+    cursor: pointer;
+}
+
 .news-para{
     color: var(--grayishBlue);
     font-size: 14px;
@@ -189,7 +195,7 @@ main{
     color: var(--grayishBlue);
     font-weight: 700;
     font-size: 27px;
-    line-height: 37px;
+    line-height: 37px; 
 }
 
 .bottom-texts h4{
@@ -199,6 +205,11 @@ main{
     line-height: 28px;
 }
 
+.bottom-texts h4:hover{
+    color: var(--softRed);
+    transition: 1s;
+    cursor: pointer;
+}
 .bottom-texts p {
     font-size: 15px;
     line-height: 24px;
